@@ -1,4 +1,3 @@
-import rickImg from "./img/rick-morty.png"
 
 export const content = {
   en: {
@@ -36,7 +35,7 @@ export const content = {
         desc: "Gestiona gastos e ingresos con reportes gráficos.",
         techs: ["Vue3", "Tailwind", "Vite"],
         url: "https://rickandmortytv.netlify.app/",
-        image: rickImg
+        image: "./img/rick-morty.png"
       },
       {
         title: "E-commerce Ropa",
