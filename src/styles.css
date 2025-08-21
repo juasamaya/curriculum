@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root { color-scheme: dark; }
+html, body, #root { height: 100%; }
+html { scroll-behavior: smooth; }
+
+/* Glass card helper */
+.glass {
+  @apply bg-base-200/60 backdrop-blur border border-white/10 shadow-glow;
+}
