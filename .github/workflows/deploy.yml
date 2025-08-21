@@ -5,6 +5,8 @@ on:
     branches:
       - main   # Se ejecuta cuando haces push a main
   workflow_dispatch: # Permite correrlo manualmente
+permissions:
+  contents: write
 
 jobs:
   build:
