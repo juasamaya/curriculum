@@ -1,5 +1,4 @@
 import { Badge, Card } from "./UI"
-import './../assets/css/defensive.css'
 
 type Props = {
   index: number
@@ -23,7 +22,7 @@ export default function PortfolioCard({ image, title, desc, techs, url, onClick 
       </div>
       <div className="mt-4">
         <h3 className="font-semibold">{title}</h3>
-        <p  className="nowrap text-sm text-white/70">{desc}</p>
+        <p  className="text-sm text-white/70">{desc}</p>
       </div>
       <div className="mt-4 flex flex-wrap gap-2">
         {techs.map((tech, i) => (
