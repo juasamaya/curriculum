@@ -1,3 +1,4 @@
+import mortyImage from './img/rick-morty.png'
 
 export const content = {
   en: {
@@ -33,24 +34,10 @@ export const content = {
       {
         title: "Rick and Morty Explorer",
         desc: "Gestiona gastos e ingresos con reportes gráficos.",
-        techs: ["Vue3", "Tailwind", "Vite"],
+        techs: ["Vue3", "Tailwind", "Pinia"],
         url: "https://rickandmortytv.netlify.app/",
-        image: "./img/rick-morty.png"
-      },
-      {
-        title: "E-commerce Ropa",
-        desc: "Tienda online con pagos integrados.",
-        techs: ["Angular", "NestJS", "MongoDB"],
-        url: "https://rickandmortytv.netlify.app/",
-        image: "./img/rick-and-morty-app.png"
-      },
-      {
-        title: "Dashboard Analítico",
-        desc: "Visualización de datos en tiempo real.",
-        techs: ["Vue", "Django", "Docker"],
-        url: "https://rickandmortytv.netlify.app/",
-        image: "./img/rick-and-morty-app.png"
-      },
+        image: mortyImage
+      }
     ],
     education: {
       title: "Education",
@@ -65,7 +52,7 @@ export const content = {
       items: [
         {
           company: "Linktic",
-          role: "Front‑End Developer (Semi‑Senior)",
+          role: "Front‑End Developer Mid Level",
           date: "June 6, 2025 — Present",
           bullets: [
             "Develop modern, responsive, high‑performance interfaces for public and private platforms.",
@@ -138,23 +125,9 @@ export const content = {
       {
         title: "Rick and Morty Explorer",
         desc: "Gestiona gastos e ingresos con reportes gráficos.",
-        techs: ["React", "Node.js", "PostgreSQL"],
+        techs: ["Vue3", "Tailwind", "Pinia"],
         url: "https://rickandmortytv.netlify.app/",
-        image: "./img/rick-and-morty-app.png"
-      },
-      {
-        title: "E-commerce Ropa",
-        desc: "Tienda online con pagos integrados.",
-        techs: ["Angular", "NestJS", "MongoDB"],
-        url: "https://rickandmortytv.netlify.app/",
-        image: "./img/rick-and-morty-app.png"
-      },
-      {
-        title: "Dashboard Analítico",
-        desc: "Visualización de datos en tiempo real.",
-        techs: ["Vue", "Django", "Docker"],
-        url: "https://rickandmortytv.netlify.app/",
-        image: "./img/rick-and-morty-app.png"
+        image: mortyImage
       },
     ],
     education: {
@@ -192,7 +165,7 @@ export const content = {
         {
           company: "VZ Tech",
           role: "Desarrollador Full‑Stack Jr.",
-          date: "20 de febrero de 2023 — 06 de Junio de 2025",
+          date: "01 de Noviembre del 2022 — 18 de Febrero de 2023",
           bullets: [
             "Soporte a Deplog Logistics sobre Odoo.sh (ERP/ORM): clases en Python, plantillas XML y consultas PostgreSQL.",
             "Mantenimiento de entornos Linux y módulos a medida."
@@ -201,7 +174,7 @@ export const content = {
         {
           company: "BIT Bogotá Institute of Technology",
           role: "Desarrollador Full‑Stack → Instructor",
-          date: "",
+          date: "01 de septiembre de 2022 - 01 de Noviembre del 2022",
           bullets: [
             "App educativa del instituto con MEAN (MongoDB, Express, Angular, Node).",
             "Instructor en bootcamps: React, MEAN, Cloud, Docker, Nginx y Linux."
