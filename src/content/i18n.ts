@@ -15,7 +15,7 @@ export const content = {
       skills: [
         "Backend: C# (ASP.NET Core, .NET), Java (Spring Boot), Node.js, Python",
         "Frontend: React, Vue, Angular",
-        "Relational DBs: SQL Server, Oracle",
+        "Relational DBs: SQL Server, Oracle, PostgreSQL",
         "NoSQL: MongoDB",
         "Cloud: Azure (Functions, WebJobs, App Services, Storage, Queues), basic AWS",
         "OS: Windows, Linux (Ubuntu, Debian)",
@@ -26,15 +26,17 @@ export const content = {
     },
     portfolio: {
       title: "Portfolio",
-      note: "Six slots ready. We'll add real projects next.",
+      note: "Main projects",
       coming: "Coming soon",
       desc: "Short placeholder description"
     },
     projects: [
       {
-        title: "Rick and Morty Explorer",
-        desc: "Gestiona gastos e ingresos con reportes gráficos.",
-        techs: ["Vue3", "Tailwind", "Pinia"],
+        title: "Rick and Morty Explorer (Front-End Semi-Senior Developer Technical Test)",
+        desc: "Develop a simple web interface that consumes a public API and displays results clearly and in an organized manner, applying good frontend development practices. Technical Requirements:",
+        techs: ["Vue3", "TypeScript", "Tailwind", "Pinia", "Vitest"],
+        bullets:
+          "Use the framework required for the position you applied for, Consume any open public API, Implement a pleasant and functional user interface, Document your solution and technical decisions, Version your code using Git, Implement basic unit tests, Display a list of items retrieved from the chosen API, Allow querying details of a specific item from the list, Include basic error handling (API failure, missing data)",
         url: "https://rickandmortytv.netlify.app/",
         image: mortyImage
       }
@@ -42,7 +44,8 @@ export const content = {
     education: {
       title: "Education",
       items: [
-        { school: "Technologist — Analysis & Software Development (in progress)", place: "Colombia", details: "Project‑based learning in modern software engineering." },
+        { school: "SENA — Technologist Analysis & Software Development", place: "Colombia", details: "Project‑based learning in modern software engineering." },
+        { school: "Universidad Autónoma de Bucaramanga — MisionTIC 2022", place: "Colombia", details: "Hands-on project-based learning in modern software development practices." },
         { school: "Azure Developer — Certimas", place: "Cloud & DevOps", details: "Training focused on Azure infrastructure and services." },
         { school: "BIT Bogotá Institute of Technology — Full‑Stack Bootcamp", place: "MEAN | React", details: "Built the institute’s MEAN app; later invited as an instructor." }
       ]
@@ -69,6 +72,14 @@ export const content = {
             "Core stack: ASP.NET Core, Java (Spring Boot), Vue, SQL Server; microservices in Python and Node.js when needed.",
             "On‑prem Linux deployments; Azure services: Functions, WebJobs, App Services, Storage, Queues.",
             "Azure Developer training towards Azure Container Apps and Kubernetes for microservices."
+          ]
+        },
+        {
+          company: "BIT (Build Innovate Transform) — Universidad Iberoamericana",
+          role: "Especialista BIT",
+          date: "Mayo de 2023 — Mayo 2025",
+          bullets: [
+            "Taught React programming, focusing on MEAN Stack profiles and AWS Cloud Computing; covering deployments, Linux, Docker, and Nginx."
           ]
         },
         {
@@ -106,7 +117,7 @@ export const content = {
       skills: [
         "Backend: C# (ASP.NET Core, .NET), Java (Spring Boot), Node.js, Python",
         "Frontend: React, Vue, Angular",
-        "Bases de datos relacionales: SQL Server, Oracle",
+        "Bases de datos relacionales: SQL Server, Oracle, PostgreSQL",
         "No relacionales: MongoDB",
         "Nube: Azure (Functions, WebJobs, App Services, Storage, Queues), AWS básico",
         "Sistemas operativos: Windows, Linux (Ubuntu, Debian)",
@@ -117,15 +128,16 @@ export const content = {
     },
     portfolio: {
       title: "Portafolio",
-      note: "Seis espacios listos. Luego agregamos proyectos reales.",
+      note: "Proyectos principales",
       coming: "Próximamente",
       desc: "Descripción breve de placeholder"
     },
     projects: [
       {
-        title: "Rick and Morty Explorer",
-        desc: "Gestiona gastos e ingresos con reportes gráficos.",
-        techs: ["Vue3", "Tailwind", "Pinia"],
+        title: "Rick and Morty Explorer (Prueba Técnica Desarrollador Front‑End Semi-Senior)",
+        desc: "Desarrollar una interfaz web simple que consuma una API pública y muestre resultados de forma clara y organizada, aplicando buenas prácticas de desarrollo frontend Requisitos Técnicos",
+        techs: ["Vue3", "Typescript", "Tailwind", "Pinia", "Vitest"],
+        bullets: "Usa el framework de la vacante en la que aplicaste, Consume cualquier API pública abierta, Implementa una interfaz visual agradable y funcional, Documenta tu solución y decisiones técnicas, Versiona tu código usando Git, Implementar pruebas unitarias básicas, Mostrar una lista de elementos obtenidos desde la API seleccionada, Permitir consultar detalles de un elemento específico desde la lista,Incluir manejo básico de errores (fallo en API, datos faltantes)",
         url: "https://rickandmortytv.netlify.app/",
         image: mortyImage
       },
@@ -133,7 +145,8 @@ export const content = {
     education: {
       title: "Educación",
       items: [
-        { school: "Tecnólogo — Análisis y Desarrollo de Software (en curso)", place: "Colombia", details: "Formación basada en proyectos con prácticas modernas." },
+        { school: "SENA Tecnólogo — Análisis y Desarrollo de Software", place: "Colombia", details: "Formación basada en proyectos con prácticas modernas." },
+        { school: "Universidad Autónoma de Bucaramanga — MisionTIC 2022", place: "Colombia", details: "Aprendizaje práctico basado en proyectos aplicando prácticas modernas de desarrollo de software." },
         { school: "Azure Developer — Certimas", place: "Cloud & DevOps", details: "Enfoque en infraestructura y servicios de Azure." },
         { school: "BIT Bogotá Institute of Technology — Bootcamp Full‑Stack", place: "MEAN | React", details: "Construí la app MEAN del instituto; luego invitado como instructor." }
       ]
@@ -160,6 +173,14 @@ export const content = {
             "Stack principal: ASP.NET Core, Java (Spring Boot), Vue, SQL Server; microservicios en Python y Node.js según necesidad.",
             "Despliegues en Linux on‑prem; Azure: Functions, WebJobs, App Services, Storage, Queues.",
             "Formación Azure Developer para evolucionar a Container Apps y Kubernetes con microservicios."
+          ]
+        },
+        {
+          company: "BIT (Build Innovate Transform) — Universidad Iberoamericana",
+          role: "Especialista BIT",
+          date: "Mayo de 2023 — Mayo 2025",
+          bullets: [
+            "Docente de programación en React, con enfoque en perfiles MEAN Stack y Cloud Computing en AWS; enseñanza de despliegues, Linux, Docker y Nginx."
           ]
         },
         {

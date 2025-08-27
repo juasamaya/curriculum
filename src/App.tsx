@@ -9,6 +9,7 @@ import { Mail, Github, Linkedin } from "lucide-react"
 
 export default function App() {
   const [lang, setLang] = useState<Lang>('es')
+  const [selectedProject, setSelectedProject] = useState<null | typeof T.projects[0]>(null);
   const T = content[lang]
 
   return (
@@ -31,9 +32,8 @@ export default function App() {
             <p className="mt-4 text-lg text-white/80">{T.hero.subtitle}</p>
 
             <div className="mt-6 flex flex-wrap gap-3">
-              <a className="btn btn-outline btn-sm gap-2" href="mailto:contact@example.com"><Mail size={16}/> Email</a>
-              <a className="btn btn-outline btn-sm gap-2" href="#" target="_blank" rel="noreferrer"><Github size={16}/> GitHub</a>
-              <a className="btn btn-outline btn-sm gap-2" href="#" target="_blank" rel="noreferrer"><Linkedin size={16}/> LinkedIn</a>
+              <a className="btn btn-outline btn-sm gap-2" href="mailto:sebasamayaxd@hotmail.com"><Mail size={16}/> Email</a>
+              <a className="btn btn-outline btn-sm gap-2" href="https://linkedin.com/in/juan-sebastian-amaya-serrano-dev92" target="_blank" rel="noreferrer"><Linkedin size={16}/> LinkedIn</a>
             </div>
           </div>
 
@@ -80,12 +80,63 @@ export default function App() {
                     techs={project.techs}
                     url={project.url}
                     image={project.image}
+                    onClick={() => setSelectedProject(project)}
                   />
                 </motion.div>
               ))}
             </div>
         </Container>
       </Section>
+        {selectedProject && (
+          <div className="fixed inset-0 bg-black/70 flex items-center justify-center z-50">
+            <div className="bg-white text-black rounded-2xl p-6 w-full max-w-lg relative max-h-[80vh] overflow-y-auto">
+              <button
+                className="absolute top-3 right-3 text-xl"
+                onClick={() => setSelectedProject(null)}
+              >
+                ✕
+              </button>
+              
+              <button
+                className="absolute top-3 left-3 text-sm bg-gray-100 px-2 py-1 rounded"
+                onClick={() => setLang(lang === "es" ? "en" : "es")}
+              >
+                {lang === "es" ? "English" : "Español"}
+              </button>
+
+              <h2 className="text-2xl font-bold mb-4">{selectedProject.title}</h2>
+              <img
+                src={selectedProject.image}
+                alt={selectedProject.title}
+                className="rounded mb-4"
+              />
+              <p className="mb-4">{selectedProject.desc}</p>
+              <ul className="list-disc pl-6 mb-4">
+                {selectedProject.bullets.split(",").map((item, index) => (
+                  <li key={index}>{item.trim()}</li>
+                ))}
+              </ul>
+              <ul className="flex flex-wrap gap-2 mb-4">
+                {selectedProject.techs.map((tech, i) => (
+                  <li
+                    key={i}
+                    className="bg-gray-200 px-2 py-1 rounded text-sm"
+                  >
+                    {tech}
+                  </li>
+                ))}
+              </ul>
+              <a
+                href={selectedProject.url}
+                target="_blank"
+                rel="noreferrer"
+                className="btn btn-primary"
+              >
+                {lang === "es" ? "Ver proyecto" : "View project"}
+              </a>
+            </div>
+          </div>
+        )}
 
       {/* EDUCATION */}
       <Section id="education" className="border-b border-white/10">
