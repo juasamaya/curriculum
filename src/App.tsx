@@ -9,8 +9,8 @@ import { Mail, Github, Linkedin } from "lucide-react"
 
 export default function App() {
   const [lang, setLang] = useState<Lang>('es')
-  const [selectedProject, setSelectedProject] = useState<null | typeof T.projects[0]>(null);
   const T = content[lang]
+  const [selectedProject, setSelectedProject] = useState<null | typeof T.projects[0]>(null);
 
   return (
     <div data-theme="cvtheme" className="min-h-screen bg-gradient-to-b from-brand1 to-brand0 text-white">

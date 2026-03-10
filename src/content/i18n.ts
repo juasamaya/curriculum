@@ -174,7 +174,7 @@ export const content = {
     },
     projects: [
       {
-        title: "Jaeger Pets",
+        title: "Mis Mascotas",
         desc: "Mi primer proyecto con el stack MEAN en el año 2022",
         techs: ["Angular", "TypeScript", "Bootstrap", "Mongo", "Express", "NodeJs"],
         bullets:
@@ -272,6 +272,6 @@ export const content = {
       ]
     }
   }
-} as const
+}
 
 export type Lang = keyof typeof content
