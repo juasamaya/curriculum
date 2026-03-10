@@ -1,8 +1,15 @@
 import mortyImage from './img/rick-morty.png'
+import jaegerImage from './img/jaeger.png'
+import financialImage from './img/finance.png'
 
 export const content = {
   en: {
-    nav: { profile: "Profile", portfolio: "Portfolio", education: "Education", experience: "Experience" },
+    nav: { 
+      profile: "Profile", 
+      portfolio: "Portfolio", 
+      education: "Education", 
+      experience: "Experience" 
+    },
     hero: {
       title: "Juan Sebastián Amaya Serrano",
       role: "Full‑Stack Developer Mid Level",
@@ -10,16 +17,16 @@ export const content = {
     },
     profile: {
       title: "Profile",
-      about: `Technology in Analysis & Software Development with 3 years of practical experience. Full‑Stack developer focused on scalable systems, clean code, and measurable business outcomes.`,
+      about: `Technology in Analysis & Software Development with 3.5 years of practical experience. Full‑Stack developer focused on scalable systems, clean code, and measurable business outcomes.`,
       skillsIntro: "Tech stack & skills",
       skills: [
-        "Backend: C# (ASP.NET Core, .NET), Java (Spring Boot), Node.js, Python",
+        "Backend: C# (ASP.NET Core, .NET), Node.js, Python",
         "Frontend: React, Vue, Angular",
         "Relational DBs: SQL Server, Oracle, PostgreSQL",
         "NoSQL: MongoDB",
         "Cloud: Azure (Functions, WebJobs, App Services, Storage, Queues), basic AWS",
         "OS: Windows, Linux (Ubuntu, Debian)",
-        "Tools: Git, Jira, Monday, Next.js, Tailwind, Bootstrap, React Native, Docker, REST, SOAP, Cloud Apps, OOP, WSL, Express, jQuery, XML, ORM, Sequelize, Azure DevOps",
+        "Tools: Git, Jira, Monday, Next.js, Tailwind, Bootstrap, React Native, Docker, Kubernetes, CI/CD, REST, SOAP, Cloud Apps, OOP, WSL, Express, jQuery, XML, ORM, Sequelize, Azure DevOps",
         "Ops: Linux server configuration, deployments, testing"
       ],
       traits: "Outcome‑oriented, responsible, ethical, and collaborative — effective both independently and in teams."
@@ -31,6 +38,24 @@ export const content = {
       desc: "Short placeholder description"
     },
     projects: [
+      {
+        title: "Jaeger Pets",
+        desc: "My first MEAN Stack project year 2022",
+        techs: ["Angular", "TypeScript", "Bootstrap", "Mongo", "Express", "NodeJs"],
+        bullets:
+          "My FullStack Development Bootcamp project.",
+        url: "https://steady-tarsier-7a60ba.netlify.app/jaeger-pets/home",
+        image: jaegerImage
+      },
+      {
+        title: "Financial Dashboard",
+        desc: "The app is designed to efficiently manage personal finances, allowing users to track expenses and income, and offering graphical visualizations for better financial control. These visuals help users make informed decisions and plan their financial future.",
+        techs: ["React", "TypeScript", "Tailwind", "Vite", "Vitest", "Nest", "Prisma ORM", "PostgreSQL"],
+        bullets:
+          "Implementation of a JWT authentication system, ensuring access only to authorized users. CRUD functionality for managing income and expenses, maintaining an accurate record of transactions, Ability to apply filters by date and transaction type to organize financial data, Inclusion of summary charts in bar or pie format to identify patterns and trends, Option to export summaries in CSV format for external financial tracking and further analysis",
+        url: "https://dashboardingresos.netlify.app/",
+        image: financialImage
+      },
       {
         title: "Rick and Morty Explorer (Front-End Semi-Senior Developer Technical Test)",
         desc: "Develop a simple web interface that consumes a public API and displays results clearly and in an organized manner, applying good frontend development practices. Technical Requirements:",
@@ -53,6 +78,16 @@ export const content = {
     experience: {
       title: "Experience",
       items: [
+        {
+          company: "Autonomic Mind",
+          role: "FullStack Developer",
+          date: "November 18, 2025 — January 28, 2026",
+          bullets: [
+            "Design and development of microservices using model and DAO architecture.",
+            "Implementation of solutions with React, NestJS, C#, PostgreSQL, and AWS.",
+            "Agile collaboration using Jira and Bitbucket. "
+          ]
+        },
         {
           company: "Linktic",
           role: "Front‑End Developer Mid Level",
@@ -104,7 +139,12 @@ export const content = {
     }
   },
   es: {
-    nav: { profile: "Perfil", portfolio: "Portafolio", education: "Educación", experience: "Experiencia" },
+    nav: { 
+      profile: "Perfil", 
+      portfolio: "Portafolio", 
+      education: "Educación", 
+      experience: "Experiencia" 
+    },
     hero: {
       title: "Juan Sebastián Amaya Serrano",
       role: "Desarrollador Full‑Stack Semi-Senior",
@@ -112,16 +152,16 @@ export const content = {
     },
     profile: {
       title: "Perfil",
-      about: `Tecnología en Análisis y Desarrollo de Software con 3 años de experiencia práctica. Desarrollador Full‑Stack enfocado en sistemas escalables, código limpio y resultados de negocio.`,
+      about: `Tecnología en Análisis y Desarrollo de Software con 3 años y medio de experiencia práctica. Desarrollador Full‑Stack enfocado en sistemas escalables, código limpio y resultados de negocio.`,
       skillsIntro: "Stack tecnológico y habilidades",
       skills: [
-        "Backend: C# (ASP.NET Core, .NET), Java (Spring Boot), Node.js, Python",
+        "Backend: C# (ASP.NET Core, .NET), Node.js, Python",
         "Frontend: React, Vue, Angular",
         "Bases de datos relacionales: SQL Server, Oracle, PostgreSQL",
         "No relacionales: MongoDB",
         "Nube: Azure (Functions, WebJobs, App Services, Storage, Queues), AWS básico",
         "Sistemas operativos: Windows, Linux (Ubuntu, Debian)",
-        "Herramientas: Git, Jira, Monday, Next.js, Tailwind, Bootstrap, React Native, Docker, REST, SOAP, Apps en la nube, POO, WSL, Express, jQuery, XML, ORM, Sequelize, Azure DevOps",
+        "Herramientas: Git, Jira, Monday, Next.js, Tailwind, Bootstrap, React Native, Docker, Kubernetes, CI/DI, REST, SOAP, Apps en la nube, POO, WSL, Express, jQuery, XML, ORM, Sequelize, Azure DevOps",
         "Ops: Configuración de servidores Linux, despliegues y pruebas"
       ],
       traits: "Orientado a resultados, responsable, ético y colaborativo — sólido desempeño individual y en equipo."
@@ -133,6 +173,24 @@ export const content = {
       desc: "Descripción breve de placeholder"
     },
     projects: [
+      {
+        title: "Jaeger Pets",
+        desc: "Mi primer proyecto con el stack MEAN en el año 2022",
+        techs: ["Angular", "TypeScript", "Bootstrap", "Mongo", "Express", "NodeJs"],
+        bullets:
+          "Proyecto realizado durante mi Bootcamp de Desarrollo FullStack.",
+        url: "https://steady-tarsier-7a60ba.netlify.app/jaeger-pets/home",
+        image: jaegerImage
+      },
+      {
+        title: "Panel Financiero",
+        desc: "La aplicación está diseñada para gestionar las finanzas personales de manera eficiente, permitiendo a los usuarios registrar gastos e ingresos, además de ofrecer visualizaciones gráficas para un mejor control financiero. Estas visualizaciones ayudan a tomar decisiones informadas y planificar el futuro financiero.",
+        techs: ["React", "TypeScript", "Tailwind", "Vite", "Vitest", "Nest", "Prisma ORM", "PostgreSQL"],
+        bullets:
+          "Implementación de un sistema de autenticación con JWT que garantiza el acceso solo a usuarios autorizados. Funcionalidad CRUD para gestionar ingresos y gastos, manteniendo un registro preciso de las transacciones. Posibilidad de aplicar filtros por fecha y tipo de transacción para organizar los datos financieros. Inclusión de gráficos resumen en formato de barras o pastel para identificar patrones y tendencias. Opción de exportar resúmenes en formato CSV para seguimiento financiero externo y análisis adicional.",
+        url: "https://dashboardingresos.netlify.app/",
+        image: financialImage
+      },
       {
         title: "Rick and Morty Explorer (Prueba Técnica Desarrollador Front‑End Semi-Senior)",
         desc: "Desarrollar una interfaz web simple que consuma una API pública y muestre resultados de forma clara y organizada, aplicando buenas prácticas de desarrollo frontend Requisitos Técnicos",
@@ -154,6 +212,16 @@ export const content = {
     experience: {
       title: "Experiencia",
       items: [
+        {
+          company: "Autonomic Mind",
+          role: "Fullstack developer",
+          date: "18 de noviembre de 2025 — 28 de enero de 2026",
+          bullets: [
+            "Desarrollo de microservicios bajo arquitectura por modelos y DAO. ",
+            "Implementación de soluciones con React, NestJS, C#, PostgreSQL y AWS.",
+            "Trabajo colaborativo en entornos ágiles usando Jira y Bitbucket. "
+          ]
+        },
         {
           company: "Linktic",
           role: "Desarrollador Front‑End (Semisenior)",
