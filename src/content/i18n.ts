@@ -44,7 +44,7 @@ export const content = {
         techs: ["Angular", "TypeScript", "Bootstrap", "Mongo", "Express", "NodeJs"],
         bullets:
           "My FullStack Development Bootcamp project.",
-        url: "https://steady-tarsier-7a60ba.netlify.app/jaeger-pets/home",
+        url: "https://steady-tarsier-7a60ba.netlify.app/",
         image: jaegerImage
       },
       {
@@ -179,7 +179,7 @@ export const content = {
         techs: ["Angular", "TypeScript", "Bootstrap", "Mongo", "Express", "NodeJs"],
         bullets:
           "Proyecto realizado durante mi Bootcamp de Desarrollo FullStack.",
-        url: "https://steady-tarsier-7a60ba.netlify.app/jaeger-pets/home",
+        url: "https://steady-tarsier-7a60ba.netlify.app/",
         image: jaegerImage
       },
       {
