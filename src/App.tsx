@@ -112,8 +112,8 @@ export default function App() {
               />
               <p className="mb-4">{selectedProject.desc}</p>
               <ul className="list-disc pl-6 mb-4">
-                {selectedProject.bullets.split(",").map((item, index) => (
-                  <li key={index}>{item.trim()}</li>
+                {selectedProject.bullets.map((item, index) => (
+                  <li key={index}>{item}</li>
                 ))}
               </ul>
               <ul className="flex flex-wrap gap-2 mb-4">

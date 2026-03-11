@@ -1,6 +1,7 @@
 import mortyImage from './img/rick-morty.png'
 import jaegerImage from './img/jaeger.png'
 import financialImage from './img/finance.png'
+import realStateImage from './img/real-state.png'
 
 export const content = {
   en: {
@@ -39,31 +40,67 @@ export const content = {
     },
     projects: [
       {
-        title: "Jaeger Pets",
-        desc: "My first MEAN Stack project year 2022",
-        techs: ["Angular", "TypeScript", "Bootstrap", "Mongo", "Express", "NodeJs"],
-        bullets:
-          "My FullStack Development Bootcamp project.",
-        url: "https://steady-tarsier-7a60ba.netlify.app/",
-        image: jaegerImage
+        title: "Real Estate Project",
+        desc: "This project is a fullstack application for managing properties in a real estate company. The backend is built with .NET 9 and MongoDB, while the frontend is developed with Next.js (React), featuring filters, pagination, and property detail views.",
+        techs: [".NET 9", "MongoDB", "Next.js", "React", "Docker", "TypeScript", "TailwindCSS", "NUnit", "Jest", "Swagger"],
+        bullets: [
+          "Layered backend architecture (Controllers, Application, Domain, and Infrastructure).",
+          "Implementation of services and interfaces (IPropertyService, IPropertyRepository) to decouple business logic.",
+          "Use of strongly typed DTOs (PropertyDto, PropertyWithImageDto, PropertyFilterDto) for communication between layers.",
+          "Optimized queries with filters by name, address, and price range.",
+          "Efficient pagination for property listings.",
+          "Domain model including Property, Owner, PropertyImage, and PropertyTrace entities.",
+          "Frontend built with Next.js using reusable components for filters, cards, and detailed property views.",
+          "Testing with NUnit on the backend and Jest + React Testing Library on the frontend."
+        ],
+        url: "https://dashboardingresos.netlify.app/",
+        image: realStateImage
       },
       {
         title: "Financial Dashboard",
         desc: "The app is designed to efficiently manage personal finances, allowing users to track expenses and income, and offering graphical visualizations for better financial control. These visuals help users make informed decisions and plan their financial future.",
         techs: ["React", "TypeScript", "Tailwind", "Vite", "Vitest", "Nest", "Prisma ORM", "PostgreSQL"],
-        bullets:
-          "Implementation of a JWT authentication system, ensuring access only to authorized users. CRUD functionality for managing income and expenses, maintaining an accurate record of transactions, Ability to apply filters by date and transaction type to organize financial data, Inclusion of summary charts in bar or pie format to identify patterns and trends, Option to export summaries in CSV format for external financial tracking and further analysis",
+        bullets: [
+          "Implementation of a JWT authentication system ensuring access only to authorized users.",
+          "CRUD functionality for managing income and expenses while maintaining an accurate record of transactions.",
+          "Ability to apply filters by date and transaction type to organize financial data.",
+          "Inclusion of summary charts in bar or pie format to identify patterns and trends.",
+          "Option to export summaries in CSV format for external financial tracking and analysis."
+        ],
         url: "https://dashboardingresos.netlify.app/",
         image: financialImage
       },
       {
         title: "Rick and Morty Explorer (Front-End Semi-Senior Developer Technical Test)",
-        desc: "Develop a simple web interface that consumes a public API and displays results clearly and in an organized manner, applying good frontend development practices. Technical Requirements:",
+        desc: "Develop a simple web interface that consumes a public API and displays results clearly and in an organized manner, applying good frontend development practices.",
         techs: ["Vue3", "TypeScript", "Tailwind", "Pinia", "Vitest"],
-        bullets:
-          "Use the framework required for the position you applied for, Consume any open public API, Implement a pleasant and functional user interface, Document your solution and technical decisions, Version your code using Git, Implement basic unit tests, Display a list of items retrieved from the chosen API, Allow querying details of a specific item from the list, Include basic error handling (API failure, missing data)",
+        bullets: [
+          "Consume the public Rick and Morty API.",
+          "Display a list of characters retrieved from the API.",
+          "Allow users to view detailed information for a selected character.",
+          "Implement global state management using Pinia.",
+          "Create a responsive and visually clean interface using TailwindCSS.",
+          "Include basic error handling for API failures or missing data.",
+          "Implement basic unit tests using Vitest.",
+          "Use Git for version control and documentation of technical decisions."
+        ],
         url: "https://rickandmortytv.netlify.app/",
         image: mortyImage
+      },
+      {
+        title: "Jaeger Pets",
+        desc: "My first MEAN Stack project built in 2022.",
+        techs: ["Angular", "TypeScript", "Bootstrap", "MongoDB", "Express", "Node.js"],
+        bullets: [
+          "CRUD application for managing pets.",
+          "Backend built with Node.js and Express.",
+          "MongoDB used for data storage.",
+          "Frontend developed using Angular.",
+          "User interface styled with Bootstrap.",
+          "Project developed during my FullStack Development Bootcamp."
+        ],
+        url: "https://steady-tarsier-7a60ba.netlify.app/",
+        image: jaegerImage
       }
     ],
     education: {
@@ -91,7 +128,7 @@ export const content = {
         {
           company: "Linktic",
           role: "Front‑End Developer Mid Level",
-          date: "June 6, 2025 — Present",
+          date: "June 6, 2025 — November 18, 2025",
           bullets: [
             "Develop modern, responsive, high‑performance interfaces for public and private platforms.",
             "Apply accessibility and usability best practices; integrate RESTful APIs with scalable UI architecture.",
@@ -174,31 +211,69 @@ export const content = {
     },
     projects: [
       {
-        title: "Mis Mascotas",
-        desc: "Mi primer proyecto con el stack MEAN en el año 2022",
-        techs: ["Angular", "TypeScript", "Bootstrap", "Mongo", "Express", "NodeJs"],
-        bullets:
-          "Proyecto realizado durante mi Bootcamp de Desarrollo FullStack.",
-        url: "https://steady-tarsier-7a60ba.netlify.app/",
-        image: jaegerImage
+        title: "Proyecto Real Estate",
+        desc: "Este proyecto consiste en una app Fullstack para la gestión de propiedades de una empresa inmobiliaria. El backend está desarrollado en .NET 9 con MongoDB, y el frontend en Next.js (React) con filtros, paginación y detalle de propiedades.",
+        techs: [".NET 9", "MongoDB", "Next.js", "React", "Docker", "TypeScript", "TailwindCSS", "NUnit", "Jest", "Swagger"],
+        bullets: [
+          "Arquitectura backend basada en capas (Controllers, Application, Domain e Infrastructure).",
+          "Implementación de servicios e interfaces (IPropertyService, IPropertyRepository) para desacoplar la lógica de negocio.",
+          "Uso de DTOs tipados (PropertyDto, PropertyWithImageDto, PropertyFilterDto) para comunicación entre capas.",
+          "Consultas optimizadas con filtros por nombre, dirección y rango de precio.",
+          "Paginación eficiente para el listado de propiedades.",
+          "Modelo de dominio con entidades Property, Owner, PropertyImage y PropertyTrace.",
+          "Frontend en Next.js con componentes reutilizables para filtros, cards y vista detallada.",
+          "Testing con NUnit en backend y Jest + React Testing Library en frontend."
+        ],
+        url: "https://dashboardingresos.netlify.app/",
+        image: realStateImage
       },
       {
         title: "Panel Financiero",
-        desc: "La aplicación está diseñada para gestionar las finanzas personales de manera eficiente, permitiendo a los usuarios registrar gastos e ingresos, además de ofrecer visualizaciones gráficas para un mejor control financiero. Estas visualizaciones ayudan a tomar decisiones informadas y planificar el futuro financiero.",
+        desc: "La aplicación está diseñada para gestionar las finanzas personales de manera eficiente, permitiendo a los usuarios registrar gastos e ingresos, además de ofrecer visualizaciones gráficas para un mejor control financiero.",
         techs: ["React", "TypeScript", "Tailwind", "Vite", "Vitest", "Nest", "Prisma ORM", "PostgreSQL"],
-        bullets:
-          "Implementación de un sistema de autenticación con JWT que garantiza el acceso solo a usuarios autorizados. Funcionalidad CRUD para gestionar ingresos y gastos, manteniendo un registro preciso de las transacciones. Posibilidad de aplicar filtros por fecha y tipo de transacción para organizar los datos financieros. Inclusión de gráficos resumen en formato de barras o pastel para identificar patrones y tendencias. Opción de exportar resúmenes en formato CSV para seguimiento financiero externo y análisis adicional.",
+        bullets: [
+          "Sistema de autenticación con JWT para proteger el acceso a la aplicación.",
+          "Funcionalidad CRUD para registrar y gestionar ingresos y gastos.",
+          "Filtros por fecha y tipo de transacción para organizar la información financiera.",
+          "Visualización de datos mediante gráficos de barras y pastel.",
+          "Resumen financiero para identificar patrones de gasto.",
+          "Exportación de reportes en formato CSV para análisis externo."
+        ],
         url: "https://dashboardingresos.netlify.app/",
         image: financialImage
       },
       {
-        title: "Rick and Morty Explorer (Prueba Técnica Desarrollador Front‑End Semi-Senior)",
-        desc: "Desarrollar una interfaz web simple que consuma una API pública y muestre resultados de forma clara y organizada, aplicando buenas prácticas de desarrollo frontend Requisitos Técnicos",
-        techs: ["Vue3", "Typescript", "Tailwind", "Pinia", "Vitest"],
-        bullets: "Usa el framework de la vacante en la que aplicaste, Consume cualquier API pública abierta, Implementa una interfaz visual agradable y funcional, Documenta tu solución y decisiones técnicas, Versiona tu código usando Git, Implementar pruebas unitarias básicas, Mostrar una lista de elementos obtenidos desde la API seleccionada, Permitir consultar detalles de un elemento específico desde la lista,Incluir manejo básico de errores (fallo en API, datos faltantes)",
+        title: "Rick and Morty Explorer (Prueba Técnica Desarrollador Front-End Semi-Senior)",
+        desc: "Interfaz web que consume una API pública y muestra los resultados de forma clara y organizada, aplicando buenas prácticas de desarrollo frontend.",
+        techs: ["Vue3", "TypeScript", "Tailwind", "Pinia", "Vitest"],
+        bullets: [
+          "Consumo de la API pública de Rick and Morty.",
+          "Listado dinámico de personajes obtenidos desde la API.",
+          "Vista de detalles de cada personaje seleccionable desde la lista.",
+          "Gestión de estado global utilizando Pinia.",
+          "Interfaz responsiva construida con TailwindCSS.",
+          "Manejo básico de errores como fallos en la API o datos faltantes.",
+          "Implementación de pruebas unitarias con Vitest.",
+          "Versionamiento del proyecto utilizando Git."
+        ],
         url: "https://rickandmortytv.netlify.app/",
         image: mortyImage
       },
+      {
+        title: "Mis Mascotas",
+        desc: "Mi primer proyecto con el stack MEAN en el año 2022.",
+        techs: ["Angular", "TypeScript", "Bootstrap", "MongoDB", "Express", "Node.js"],
+        bullets: [
+          "Aplicación CRUD para gestionar mascotas.",
+          "Backend construido con Node.js y Express.",
+          "Base de datos MongoDB para almacenamiento de información.",
+          "Frontend desarrollado en Angular.",
+          "Interfaz construida con Bootstrap.",
+          "Proyecto realizado durante mi Bootcamp de Desarrollo FullStack."
+        ],
+        url: "https://steady-tarsier-7a60ba.netlify.app/",
+        image: jaegerImage
+      }
     ],
     education: {
       title: "Educación",
@@ -215,7 +290,7 @@ export const content = {
         {
           company: "Autonomic Mind",
           role: "Fullstack developer",
-          date: "18 de noviembre de 2025 — 28 de enero de 2026",
+          date: "19 de noviembre de 2025 — 28 de enero de 2026",
           bullets: [
             "Desarrollo de microservicios bajo arquitectura por modelos y DAO. ",
             "Implementación de soluciones con React, NestJS, C#, PostgreSQL y AWS.",
@@ -225,7 +300,7 @@ export const content = {
         {
           company: "Linktic",
           role: "Desarrollador Front‑End (Semisenior)",
-          date: "6 de junio de 2025 — Actualidad",
+          date: "6 de junio de 2025 — 18 de noviembre del 2025",
           bullets: [
             "Interfaces modernas, responsivas y de alto rendimiento para plataformas públicas y privadas.",
             "Buenas prácticas de accesibilidad y usabilidad; integración de APIs RESTful con arquitectura UI escalable.",
