@@ -42,14 +42,14 @@ export const content = {
     projects: [
       {
         title: "SmartBiz Project (MVP)",
-        desc: "SmartBiz is a Minimum Viable Product (MVP) of a cloud-based B2B SaaS platform designed for SMEs to manage their daily operations[cite: 1, 171, 296]. The system integrates DIAN-compliant electronic invoicing, sales and inventory management, and features an AI-powered virtual assistant for automated support[cite: 1, 8].",
+        desc: "SmartBiz is a Minimum Viable Product (MVP) of a cloud-based B2B SaaS platform designed for SMEs to manage their daily operations. The system integrates DIAN-compliant electronic invoicing, sales and inventory management, and features an AI-powered virtual assistant for automated support.",
         techs: ["React", "Node.js", "NestJS", "Docker", "Kubernetes", "CI/CD", "PostgreSQL", "Generative AI", "DIAN APIs", "AWS / DigitalOcean"],
         bullets: [
-          "Developed a functional MVP using a Software as a Service (SaaS) model with a responsive web architecture[cite: 1, 171].",
-          "Integrated technology providers and DIAN APIs to enable electronic invoice issuance[cite: 1, 171].",
-          "Implemented a smart chatbot trained to guide users through tax regulations and billing processes in real-time[cite: 8].",
-          "Created administrative modules for basic inventory control, sales tracking, and automatic financial reporting[cite: 8, 75].",
-          "Automated operational processes to reduce manual errors and facilitate the digital transformation of micro-businesses[cite: 1, 85].",
+          "Developed a functional MVP using a Software as a Service (SaaS) model with a responsive web architecture.",
+          "Integrated technology providers and DIAN APIs to enable electronic invoice issuance.",
+          "Implemented a smart chatbot trained to guide users through tax regulations and billing processes in real-time.",
+          "Created administrative modules for basic inventory control, sales tracking, and automatic financial reporting.",
+          "Automated operational processes to reduce manual errors and facilitate the digital transformation of micro-businesses.",
           "Deployed on cloud servers ensuring 24/7 availability, data encryption, and secure authentication."
         ],
         url: "https://smartbiz-app.netlify.app/",
@@ -228,14 +228,14 @@ export const content = {
     projects: [
       {
         title: "Proyecto SmartBiz (MVP)",
-        desc: "SmartBiz es un Producto Mínimo Viable (MVP) de una plataforma SaaS B2B en la nube, diseñada para que las pymes administren sus operaciones diarias[cite: 1, 171, 296]. El sistema integra facturación electrónica avalada por la DIAN, gestión de ventas e inventario, y destaca por incluir un asistente virtual con IA para soporte automático[cite: 1, 8].",
+        desc: "SmartBiz es un Producto Mínimo Viable (MVP) de una plataforma SaaS B2B en la nube, diseñada para que las pymes administren sus operaciones diarias. El sistema integra facturación electrónica avalada por la DIAN, gestión de ventas e inventario, y destaca por incluir un asistente virtual con IA para soporte automático.",
         techs: ["React", "Node.js", "NestJS", "Docker", "Kubernetes", "CI/CD", "PostgreSQL", "IA Generativa", "APIs DIAN", "AWS / DigitalOcean"],
         bullets: [
-          "Desarrollo de un MVP funcional bajo el modelo Software as a Service (SaaS) con arquitectura web responsiva[cite: 1, 171].",
-          "Integración con proveedores tecnológicos y APIs de la DIAN para la emisión de facturación electrónica[cite: 1, 171].",
-          "Implementación de un chatbot inteligente entrenado para orientar a los usuarios en normativas tributarias en tiempo real[cite: 8].",
-          "Creación de módulos administrativos para el control básico de inventario, ventas y generación de reportes financieros automáticos[cite: 8, 75].",
-          "Automatización de procesos operativos para reducir errores manuales y facilitar la digitalización de microempresas[cite: 1, 85].",
+          "Desarrollo de un MVP funcional bajo el modelo Software as a Service (SaaS) con arquitectura web responsiva.",
+          "Integración con proveedores tecnológicos y APIs de la DIAN para la emisión de facturación electrónica.",
+          "Implementación de un chatbot inteligente entrenado para orientar a los usuarios en normativas tributarias en tiempo real.",
+          "Creación de módulos administrativos para el control básico de inventario, ventas y generación de reportes financieros automáticos.",
+          "Automatización de procesos operativos para reducir errores manuales y facilitar la digitalización de microempresas.",
           "Despliegue en servidores cloud garantizando disponibilidad 24/7, cifrado de datos y autenticación segura."
         ],
         url: "https://smartbiz-app.netlify.app/",
