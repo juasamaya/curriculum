@@ -69,7 +69,7 @@ export const content = {
           "Frontend built with Next.js using reusable components for filters, cards, and detailed property views.",
           "Testing with NUnit on the backend and Jest + React Testing Library on the frontend."
         ],
-        url: "https://dashboardingresos.netlify.app/",
+        url: "https://real-state-app-sebas.netlify.app/",
         image: realStateImage
       },
       {
@@ -255,7 +255,7 @@ export const content = {
           "Frontend en Next.js con componentes reutilizables para filtros, cards y vista detallada.",
           "Testing con NUnit en backend y Jest + React Testing Library en frontend."
         ],
-        url: "https://dashboardingresos.netlify.app/",
+        url: "https://real-state-app-sebas.netlify.app/",
         image: realStateImage
       },
       {
