@@ -141,7 +141,7 @@ export const content = {
           date: "",
           bullets: [
             "Telecom multinational handling millions of weekend records — performance‑first mindset.",
-            "Core stack: ASP.NET Core, Java (Spring Boot), Vue, SQL Server; microservices in Python and Node.js when needed.",
+            "Core stack: ASP.NET Core, Vue, SQL Server; microservices in Python and Node.js when needed.",
             "On‑prem Linux deployments; Azure services: Functions, WebJobs, App Services, Storage, Queues.",
             "Azure Developer training towards Azure Container Apps and Kubernetes for microservices."
           ]
@@ -313,7 +313,7 @@ export const content = {
           date: "20 de febrero de 2023 — 06 de Junio de 2025",
           bullets: [
             "Multinacional Telco con millones de registros por fin de semana — mentalidad performance‑first.",
-            "Stack principal: ASP.NET Core, Java (Spring Boot), Vue, SQL Server; microservicios en Python y Node.js según necesidad.",
+            "Stack principal: ASP.NET Core, Vue, SQL Server; microservicios en Python y Node.js según necesidad.",
             "Despliegues en Linux on‑prem; Azure: Functions, WebJobs, App Services, Storage, Queues.",
             "Formación Azure Developer para evolucionar a Container Apps y Kubernetes con microservicios."
           ]
