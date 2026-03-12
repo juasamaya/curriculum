@@ -3,6 +3,7 @@ import jaegerImage from './img/jaeger.png'
 import financialImage from './img/finance.png'
 import realStateImage from './img/real-state.png'
 import smartbizImage from './img/smartbiz.png'
+import secopImage from './img/secop.png'
 
 export const content = {
   en: {
@@ -54,6 +55,20 @@ export const content = {
         ],
         url: "https://smartbiz-app.netlify.app/",
         image: smartbizImage
+      },
+      {
+        title: "SECOP Radar (Data-Driven Risk Engine)",
+        desc: "A Full Stack data analysis platform designed to detect real-time anomalies and corruption red flags within Colombian public procurement by consuming the SECOP II Open Data API.",
+        techs: ["Angular 18", "TypeScript", "Python", "FastAPI", "Pandas", "Socrata API", "Bootstrap"],
+        bullets: [
+          "Engineered a dynamic Risk Engine using Python and Pandas to ingest, clean, and process thousands of public contract records in milliseconds.",
+          "Implemented mathematical algorithms and heuristics to automatically detect specific corruption patterns, such as contract fracturing and overlapping service agreements.",
+          "Built a high-performance RESTful API with FastAPI, featuring dynamic query parameters that allow users to calibrate the risk model's sensitivity.",
+          "Developed a responsive, state-of-the-art dashboard using Angular 18 (Standalone Components) to visualize critical data and control algorithmic thresholds.",
+          "Orchestrated real-time Open Data consumption, ensuring fault tolerance and robust data cleaning processes to handle inconsistencies in government datasets."
+        ],
+        url: "https://secop-dashboard.netlify.app/",
+        image: secopImage
       },
       {
         title: "Real Estate Project",
@@ -240,6 +255,20 @@ export const content = {
         ],
         url: "https://smartbiz-app.netlify.app/",
         image: smartbizImage
+      },
+      {
+        title: "Radar SECOP (Motor de Análisis de Riesgo)",
+        desc: "Plataforma Full Stack orientada al análisis de datos públicos para la detección en tiempo real de anomalías y alertas de corrupción en la contratación estatal colombiana, consumiendo la API de Datos Abiertos (SECOP II).",
+        techs: ["Angular 18", "TypeScript", "Python", "FastAPI", "Pandas", "Socrata API", "Bootstrap"],
+        bullets: [
+          "Diseñé y desarrollé un Motor de Riesgo (Risk Engine) en el backend utilizando Python y Pandas para limpiar, agrupar y procesar miles de registros estatales en milisegundos.",
+          "Implementé algoritmos matemáticos y heurísticos para detectar automáticamente patrones de corrupción, como el fraccionamiento de contratos y la sobreposición de fechas ('corbatas').",
+          "Construí una API RESTful de alto rendimiento con FastAPI, integrando parámetros dinámicos que permiten a los usuarios calibrar la sensibilidad del algoritmo de detección.",
+          "Desarrollé un dashboard interactivo y responsivo utilizando la última arquitectura de Angular 18 (Standalone Components) para la visualización estructurada de las banderas rojas.",
+          "Orquesté la ingesta de datos en tiempo real (Open Data) garantizando tolerancia a fallos y manejo de errores (Data Cleaning) ante inconsistencias en los registros del gobierno."
+        ],
+        url: "https://secop-dashboard.netlify.app/",
+        image: secopImage
       },
       {
         title: "Proyecto Real Estate",
