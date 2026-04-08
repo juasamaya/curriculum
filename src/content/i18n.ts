@@ -67,7 +67,7 @@ export const content = {
           "Engineered a Graph Database architecture using Neo4j to visualize complex corporate corruption webs, tracking shell companies and Politically Exposed Persons (PEPs).",
           "Deployed a high-performance RESTful API (FastAPI on Render) and a responsive frontend dashboard (Angular 18 on Netlify), ensuring a secure, scalable, and fault-tolerant cloud architecture."
         ],
-        url: "https://secop-radar.netlify.app/",
+        url: "https://secop-dashboard.netlify.app/",
         image: secopImage
       },
       {
@@ -267,7 +267,7 @@ export const content = {
           "Arquitecté una topología de grafos con Neo4j para mapear complejas 'telarañas' de corrupción corporativa, rastreando carruseles de testaferros y conexiones entre PEPs (Personas Expuestas Políticamente).",
           "Desplegué una API RESTful de alto rendimiento en Render (FastAPI) y un dashboard responsivo en Angular 18 (Netlify), garantizando una arquitectura en la nube segura (CORS, JWT/API Keys) y tolerante a fallos."
         ],
-        url: "https://secop-radar.netlify.app/",
+        url: "https://secop-dashboard.netlify.app/",
         image: secopImage
       },
       {
