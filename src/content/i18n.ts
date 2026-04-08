@@ -23,14 +23,15 @@ export const content = {
       about: `Technology in Analysis & Software Development with 3.5 years of practical experience. Full‑Stack developer focused on scalable systems, clean code, and measurable business outcomes.`,
       skillsIntro: "Tech stack & skills",
       skills: [
-        "Backend: C# (ASP.NET Core, .NET), Node.js, Python",
-        "Frontend: React, Vue, Angular",
-        "Relational DBs: SQL Server, Oracle, PostgreSQL",
-        "NoSQL: MongoDB",
-        "Cloud: Azure (Functions, WebJobs, App Services, Storage, Queues), basic AWS",
-        "OS: Windows, Linux (Ubuntu, Debian)",
-        "Tools: Git, Jira, Monday, Next.js, Tailwind, Bootstrap, React Native, Docker, Kubernetes, CI/CD, REST, SOAP, Cloud Apps, OOP, WSL, Express, jQuery, XML, ORM, Sequelize, Azure DevOps",
-        "Ops: Linux server configuration, deployments, testing"
+        "Backend: C# (ASP.NET Core, .NET), Python (FastAPI), Node.js (Express, Nest)",
+        "Frontend: Angular 18, React, Vue.js, Next.js",
+        "Relational DBs: SQL Server, PostgreSQL, Oracle",
+        "NoSQL & Graph DBs: MongoDB, Neo4j",
+        "Data Science & AI: Machine Learning (Scikit-Learn, Isolation Forest), Pandas, Generative AI Integration",
+        "Cloud: Azure (Functions, App Services, Storage), AWS, Render, Netlify",
+        "OS: Windows, Linux (Ubuntu, Debian, WSL)",
+        "Tools & Architecture: Git, Docker, Kubernetes (Basic), CI/CD, OOP, REST, SOAP, Microservices Architecture, JWT",
+        "Ops & Methodologies: Agile/Scrum, Azure DevOps, Jira, Linux Server Configuration"
       ],
       traits: "Outcome‑oriented, responsible, ethical, and collaborative — effective both independently and in teams."
     },
@@ -56,20 +57,19 @@ export const content = {
         url: "https://smartbiz-app.netlify.app/",
         image: smartbizImage
       },
-      // {
-      //   title: "SECOP Radar (Data-Driven Risk Engine)",
-      //   desc: "A Full Stack data analysis platform designed to detect real-time anomalies and corruption red flags within Colombian public procurement by consuming the SECOP II Open Data API.",
-      //   techs: ["Angular 18", "TypeScript", "Python", "FastAPI", "Pandas", "Socrata API", "Bootstrap"],
-      //   bullets: [
-      //     "Engineered a dynamic Risk Engine using Python and Pandas to ingest, clean, and process thousands of public contract records in milliseconds.",
-      //     "Implemented mathematical algorithms and heuristics to automatically detect specific corruption patterns, such as contract fracturing and overlapping service agreements.",
-      //     "Built a high-performance RESTful API with FastAPI, featuring dynamic query parameters that allow users to calibrate the risk model's sensitivity.",
-      //     "Developed a responsive, state-of-the-art dashboard using Angular 18 (Standalone Components) to visualize critical data and control algorithmic thresholds.",
-      //     "Orchestrated real-time Open Data consumption, ensuring fault tolerance and robust data cleaning processes to handle inconsistencies in government datasets."
-      //   ],
-      //   url: "https://secop-dashboard.netlify.app/",
-      //   image: secopImage
-      // },
+      {
+        title: "SECOP Radar (OSINT & AI Risk Engine)",
+        desc: "A Full Stack Open-Source Intelligence (OSINT) platform engineered to detect real-time anomalies and corruption red flags in public procurement, integrating Machine Learning and Graph Databases.",
+        techs: ["Angular 18", "Python", "FastAPI", "Neo4j", "Scikit-Learn (ML)", "Pandas", "Render", "Netlify"],
+        bullets: [
+          "Architected a high-speed Risk Engine in Python using Pandas to ingest, cleanse, and process thousands of public contract records in milliseconds via the Open Data API.",
+          "Integrated an unsupervised Machine Learning algorithm (Isolation Forest) to dynamically identify statistical anomalies and isolate highly suspicious procurement patterns.",
+          "Engineered a Graph Database architecture using Neo4j to visualize complex corporate corruption webs, tracking shell companies and Politically Exposed Persons (PEPs).",
+          "Deployed a high-performance RESTful API (FastAPI on Render) and a responsive frontend dashboard (Angular 18 on Netlify), ensuring a secure, scalable, and fault-tolerant cloud architecture."
+        ],
+        url: "https://secop-radar.netlify.app/",
+        image: secopImage
+      },
       {
         title: "Real Estate Project",
         desc: "This project is a fullstack application for managing properties in a real estate company. The backend is built with .NET 9 and MongoDB, while the frontend is developed with Next.js (React), featuring filters, pagination, and property detail views.",
@@ -223,14 +223,15 @@ export const content = {
       about: `Tecnología en Análisis y Desarrollo de Software con 3 años y medio de experiencia práctica. Desarrollador Full‑Stack enfocado en sistemas escalables, código limpio y resultados de negocio.`,
       skillsIntro: "Stack tecnológico y habilidades",
       skills: [
-        "Backend: C# (ASP.NET Core, .NET), Node.js, Python",
-        "Frontend: React, Vue, Angular",
-        "Bases de datos relacionales: SQL Server, Oracle, PostgreSQL",
-        "No relacionales: MongoDB",
-        "Nube: Azure (Functions, WebJobs, App Services, Storage, Queues), AWS básico",
-        "Sistemas operativos: Windows, Linux (Ubuntu, Debian)",
-        "Herramientas: Git, Jira, Monday, Next.js, Tailwind, Bootstrap, React Native, Docker, Kubernetes, CI/CD, REST, SOAP, Apps en la nube, POO, WSL, Express, jQuery, XML, ORM, Sequelize, Azure DevOps",
-        "Ops: Configuración de servidores Linux, despliegues y pruebas"
+        "Backend: C# (ASP.NET Core, .NET), Python (FastAPI), Node.js (Express, Nest)",
+        "Frontend: Angular 18, React, Vue.js, Next.js",
+        "Bases de Datos Relacionales: SQL Server, PostgreSQL, Oracle",
+        "Bases de Datos NoSQL & Grafos: MongoDB, Neo4j",
+        "Data & IA: Machine Learning (Scikit-Learn, Isolation Forest), Pandas, Integración de IA Generativa",
+        "Nube: Azure (Functions, App Services, Storage), AWS, Render, Netlify",
+        "Sistemas Operativos: Windows, Linux (Ubuntu, Debian, WSL)",
+        "Herramientas & Arquitectura: Git, Docker, Kubernetes (Básico), CI/CD, POO, REST, SOAP, Arquitectura de Microservicios, JWT",
+        "Metodologías & Ops: Scrum, Azure DevOps, Jira, Configuración de servidores Linux"
       ],
       traits: "Orientado a resultados, responsable, ético y colaborativo — sólido desempeño individual y en equipo."
     },
@@ -256,20 +257,19 @@ export const content = {
         url: "https://smartbiz-app.netlify.app/",
         image: smartbizImage
       },
-      // {
-      //   title: "Radar SECOP (Motor de Análisis de Riesgo)",
-      //   desc: "Plataforma Full Stack orientada al análisis de datos públicos para la detección en tiempo real de anomalías y alertas de corrupción en la contratación estatal colombiana, consumiendo la API de Datos Abiertos (SECOP II).",
-      //   techs: ["Angular 18", "TypeScript", "Python", "FastAPI", "Pandas", "Socrata API", "Bootstrap"],
-      //   bullets: [
-      //     "Diseñé y desarrollé un Motor de Riesgo (Risk Engine) en el backend utilizando Python y Pandas para limpiar, agrupar y procesar miles de registros estatales en milisegundos.",
-      //     "Implementé algoritmos matemáticos y heurísticos para detectar automáticamente patrones de corrupción, como el fraccionamiento de contratos y la sobreposición de fechas ('corbatas').",
-      //     "Construí una API RESTful de alto rendimiento con FastAPI, integrando parámetros dinámicos que permiten a los usuarios calibrar la sensibilidad del algoritmo de detección.",
-      //     "Desarrollé un dashboard interactivo y responsivo utilizando la última arquitectura de Angular 18 (Standalone Components) para la visualización estructurada de las banderas rojas.",
-      //     "Orquesté la ingesta de datos en tiempo real (Open Data) garantizando tolerancia a fallos y manejo de errores (Data Cleaning) ante inconsistencias en los registros del gobierno."
-      //   ],
-      //   url: "https://secop-dashboard.netlify.app/",
-      //   image: secopImage
-      // },
+      {
+        title: "Radar SECOP (Risk Engine & OSINT Forense)",
+        desc: "Plataforma Full Stack de inteligencia de código abierto (OSINT) diseñada para la detección en tiempo real de anomalías y alertas de corrupción en la contratación estatal, integrando Machine Learning y bases de datos de grafos.",
+        techs: ["Angular 18", "Python", "FastAPI", "Neo4j", "Scikit-Learn (ML)", "Pandas", "Render", "Netlify"],
+        bullets: [
+          "Diseñé y desarrollé un Motor de Riesgo en Python utilizando Pandas para limpiar y procesar miles de registros estatales en milisegundos a través de la API de Datos Abiertos.",
+          "Entrené e integré un modelo de Machine Learning (Isolation Forest) para identificar anomalías matemáticas y aislar contratos estadísticamente atípicos (Tasa de Contaminación).",
+          "Arquitecté una topología de grafos con Neo4j para mapear complejas 'telarañas' de corrupción corporativa, rastreando carruseles de testaferros y conexiones entre PEPs (Personas Expuestas Políticamente).",
+          "Desplegué una API RESTful de alto rendimiento en Render (FastAPI) y un dashboard responsivo en Angular 18 (Netlify), garantizando una arquitectura en la nube segura (CORS, JWT/API Keys) y tolerante a fallos."
+        ],
+        url: "https://secop-radar.netlify.app/",
+        image: secopImage
+      },
       {
         title: "Proyecto Real Estate",
         desc: "Este proyecto consiste en una app Fullstack para la gestión de propiedades de una empresa inmobiliaria. El backend está desarrollado en .NET 9 con MongoDB, y el frontend en Next.js (React) con filtros, paginación y detalle de propiedades.",
